@@ -1,9 +1,10 @@
-/* global - associative array to represent menu items & respective prices */
-const menu = [];
-menu["hotdogs"] = 4;
-menu["fries"] = 3.50;
-menu["soda"] = 1.50;
-menu["sauerkraut"] = 1;
+/* global - simble object to represent menu items & respective prices */
+const menu = {
+    hotdogs: 4,
+    fries: 3.50,
+    soda: 1.50,
+    sauerkraut: 1
+}
 
 /* global - place order btn */
 const placeOrderBtn = document.getElementById("begin-order-btn");
